@@ -1,0 +1,71 @@
+.weather {
+  font-size: large;
+  text-align: right;
+  margin-top: -1%;
+  position: relative;
+}
+.symbol {
+  position: relative;
+  left: 2%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+}
+.celciusrow {
+  position: relative;
+  left: 2%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  font-size: 20px;
+}
+.days {
+  margin-top: 7%;
+  font-size: 20px;
+}
+.symbol {
+  margin-top: 3%;
+  font-size: x-large;
+}
+.current {
+  font-size: 20px;
+}
+#Temperature {
+  font-size: 70px;
+}
+.signature {
+  text-align: center;
+}
+
+.signature:hover {
+  color: rgb(7, 7, 34);
+}
+
+h1 {
+  font-weight: 400;
+}
+body {
+  background-image: url(weather.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+}
+#date-time {
+  text-align: right;
+}
+#celcius-symbol {
+  position: relative;
+  top: -30px;
+  left: 80px;
+  margin-top: -81px;
+  font-size: 250%;
+}
+ul {
+  position: relative;
+  list-style-type: none;
+  right: 30px;
+}
