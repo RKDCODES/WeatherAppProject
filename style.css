@@ -45,11 +45,7 @@ h1 {
   font-weight: 400;
 }
 body {
-  background-image: url(weather.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
+  background-color: blue;
   color: #ffff;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
