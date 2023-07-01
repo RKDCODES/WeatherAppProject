@@ -1,3 +1,9 @@
+.weatherForecast {
+  max-width: 2000px;
+  margin: 0 auto;
+  position: fixed;
+  padding-left: 250px;
+}
 .weather {
   font-size: large;
   text-align: right;
@@ -30,33 +36,51 @@
 .current {
   font-size: 20px;
 }
-#Temperature {
-  font-size: 70px;
-}
+
 .signature {
+  position: fixed;
+  top: 650px;
+  padding-left: 568px;
+
   text-align: center;
 }
 
 .signature:hover {
-  color: rgb(7, 7, 34);
+  color: #3c2e24;
 }
 
 .github {
+  position: fixed;
+  top: 700px;
+  padding-left: 470px;
+
   text-align: center;
 }
+
 h1 {
   font-weight: 400;
 }
 body {
-  background-image: url(weather.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
   color: #ffff;
   font-family: "Poppins", sans-serif;
   font-weight: 100;
 }
+ul {
+  position: relative;
+  list-style-type: none;
+  right: 30px;
+}
+#Temperature {
+  font-size: 70px;
+}
+#background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
 #date-time {
   text-align: right;
 }
@@ -66,9 +90,4 @@ body {
   left: 80px;
   margin-top: -81px;
   font-size: 250%;
-}
-ul {
-  position: relative;
-  list-style-type: none;
-  right: 30px;
 }
