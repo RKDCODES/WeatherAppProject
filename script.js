@@ -29,7 +29,7 @@ function displayWeatherCondition(response) {
     response.data.wind.speed
   );
   document.querySelector("#description").innerHTML =
-    response.data.weather[0].main;
+    response.data.weather[0].description;
 }
 function search(city) {
   let apiKey = "ac209dae1f283fb332a5bb7f50b0f468";
